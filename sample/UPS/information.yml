@@ -1,0 +1,14 @@
+author: Zxelex
+category: RE
+description: UPS is one of leading packer and courier service provider let's see if you can unpack their package.
+flags_format:
+- "mohawkCTF{}"
+hints:
+- content: Is there a way you could extract the packet ?
+name: Ups
+requirements_Skills:
+- n/a
+tags:
+- hard
+value: 500
+version: '0.1'
