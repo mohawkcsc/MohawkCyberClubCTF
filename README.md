@@ -40,6 +40,10 @@ Every Challenge should have an in-detailed step wise writeup which should be pas
 
 <ol>
   <li><b>Solve Folder:</b> This folder should include a writeup, a 'give up' file, and a solve script if applicable.</li>
+    <ul>
+      <li>Writeup: This file requires a password for access, and the password must match the CTF flag obtained after solving the challenge.</li>
+      <li>Giveup: To access this file, you'll need a password, and it's the same for all challenges: "1_G1V3_UP_PL34S3_H3LP" </li>
+    </ul>
   <li><b>Publish Folder:</b> This folder should contain all the files to be published during the CTF.</li>
   <li><b>Src Folder</b> (optional): You can include source code or any additional information related to the challenge in this folder.</li>
 </ol>
