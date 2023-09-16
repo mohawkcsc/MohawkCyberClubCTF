@@ -51,7 +51,7 @@ Every Challenge should have an in-detailed step wise writeup which should be pas
   <li><b>Category:</b> This can be one of the following: Binary Exploitation, Cryptography, Forensics, General Skills, OSINT, Reverse Engineering, Web Exploitation. If you're uncertain, you can discuss it with admins and execs.</li>
   <li><b>Challenge Description:</b> A brief description of your CTF challenge.</li>
   <li><b>Difficulty:</b> Refer to the difficulty levels <a href="#level">here</a>. If you're unsure, don't hesitate to discuss it with admins and execs.</li>
-  <li><b>Flags format:</b> Flags should follow the format: `mohawkCTF{}`</li>
+  <li><b>Flags format:</b> MohawkCTF{ANY_TEXT} </li>
   <li><b>Hint:</b> Provide a small hint for your challenge if you wish, or simply mark it as 'n/a.'</li>
   <li><b>Additional Info:</b> Include any extra details or requirements specified by the authors, admins, or execs.</li>
   <li><b>Attached files:</b> Include the SHA256 value of any files attached to ensure their integrity.</li>
