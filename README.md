@@ -13,56 +13,65 @@
     <li>
       <a href="#structure">Structure</a>
       <ul>
-        <li><a href="#structure-repository">Repository</a></li>
-        <li><a href="#structure-folder">Chall Folder</a></li>
+        <li><a href="#structure-repository">Repository Structure</a></li>
+        <li><a href="#structure-folder">Challenge Folder Structure</a></li>
       </ul>
     </li>
-    <li><a href="#start">Start</a></li>
+    <li><a href="#start">Start Contribute</a></li>
     <li><a href="#level">Difficulty Level</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 
-
 <h2 id="intro"> Introduction </h2>
 <p>This is the repository for challenges developed by Mohawk student for MohawkCTF or CyberClub. Challenges are distributed as per Category and then the chall name with the pre-defined folder structure for challenge folder as defined below.
 Every Challenge should have an in-detailed step wise writeup which should be password protected with flag as it's password and should also have a give up file with hints or writeup with the password provided in discord server.</p>
+<p><b>Flag Format for every chall is: MohawkCTF{ANY_TEXT}</b></p>
 
 <h2 id="structure"> Repository Structure </h2>
 
-<h4 id ="structure-repository"> Repository <h4>
-<p>The structure of repository should be Category > Chall folder.
-Kindly check with exec or admins on discord if you are not sure about the category for the chall or if you think if a chall could fall in 2 categories.</p>
+<h4 id ="structure-repository"> Repository Structure</h4>
+<p>The structure of repository should be Category > Difficulty Level > Your Challenge folder.
+<p>Kindly check with exec or admins on discord if you are not sure about the category for the chall, difficulty or if you think if a chall could fall in 2 categories.</p>
 
-<h4 id ="structure-folder"> Chall Folder <h4>
-The Folder Name should be the chall name.
-That folder should consist of 2 main folders and 1 Optional folder.
-1. Solve Folder which should have writeup, give up file and solve script if applicable.
-2. Publish Folder which should contain all the files to published during CTF.
-3. Src Folder which should contain source code or any additional information regarding the chall.
+<h4 id ="structure-folder"> Challenge Folder Structure</h4>
+<p>The Challenge Folder Name should match your CTF challenge name and can represent the challenge hint, associated information, or the library used in the challenge.</p>
+<p>The Challenge folder should have two main folders and one optional folder:</p>
 
-The chall folder should also contain a README file for the chall which should have following information.
-1. Chall Name as heading
-2. Category (if not sure could discuss with admins and execs).
-3. Difficulty (if not sure could discuss with admins and execs).
-4. Author Name
-5. Description for the chall (if not sure could discuss with admins and execs).
-6. Additional Info of the chall (Optional if required by authors or admins/execs).
+<ol>
+  <li><b>Solve Folder:</b> This folder should include a writeup, a 'give up' file, and a solve script if applicable.</li>
+  <li><b>Publish Folder:</b> This folder should contain all the files to be published during the CTF.</li>
+  <li><b>Src Folder</b> (optional): You can include source code or any additional information related to the challenge in this folder.</li>
+</ol>
 
-<h2 id ="Start"> Start </h2>
+<p>The challenge folder should also include a README.md file containing the following information:</p>
+<ol>
+  <li><b>Challenge Name:</b> The name of your CTF challenge.</li>
+  <li><b>Author:</b>  Your name or preferred nickname.</li>
+  <li><b>Category:</b> This can be one of the following: Binary Exploitation, Cryptography, Forensics, General Skills, OSINT, Reverse Engineering, Web Exploitation. If you're uncertain, you can discuss it with admins and execs.</li>
+  <li><b>Challenge Description:</b> A brief description of your CTF challenge.</li>
+  <li><b>Difficulty:</b> Refer to the difficulty levels <a href="#level">here</a>. If you're unsure, don't hesitate to discuss it with admins and execs.</li>
+  <li><b>Flags format:</b> Flags should follow the format: `mohawkCTF{}`</li>
+  <li><b>Hint:</b> Provide a small hint for your challenge if you wish, or simply mark it as 'n/a.'</li>
+  <li><b>Additional Info:</b> Include any extra details or requirements specified by the authors, admins, or execs.</li>
+  <li><b>Attached files:</b> Include the SHA256 value of any files attached to ensure their integrity.</li>
+</ol>
 
-<p> This project are make to learn, inspire, and create your own CTF chall. Any contributions you make are **greatly appreciated**.</p>
+<p><b>Note:</b> The information.yml file is primarily intended for future reference, in case we decide to create a CTF event on <a href="https://ctfd.io/"></a>. So please fill it out as thoroughly as possible.</p>
 
-<p> If you have a suggestion that would make this better, please check out the contact session.</p>
+<h2 id ="Start"> Start Contribute </h2>
+
+<p>This project is designed for learning, inspiration, and creating your own CTF challenges. We greatly appreciate any contributions you make.</p>
+<p>If you have suggestions to improve this project, please refer to the contact section.</p>
+<p>To contribute:</p>
 
 1. Fork the Project
-2. Create your Feature Branch (`git branch {YourBranchName}`)
+2. Create your CTF Branch (`git branch {YourBranchName}`)
 3. Add all the nessassery file to your folder (`git add -A`)
 3. Commit your Changes (`git commit -m 'Adding my CTF chall'`)
 4. Push to the Branch (`git push origin {YourBranchName}`)
 5. Open a Pull Request
-
 
 <h2 id="level"> Difficulty Level </h2> 
 
@@ -77,6 +86,3 @@ The chall folder should also contain a README file for the chall which should ha
 <h2 id ="contact"> Contact </h2>
 
 Mohawk Cyber Club Mail: [cyberclub@mohawkcollege.ca](mailto:cyberclub@mohawkcollege.ca)
-
-
-

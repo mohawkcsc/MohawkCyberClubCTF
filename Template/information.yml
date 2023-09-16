@@ -1,0 +1,22 @@
+attempts: 0
+author: 
+category: 
+description: 
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- "MohawkCTF{...}"
+hints:
+- content: 
+  cost: 0
+name: 
+requirements:
+- CoC
+state: visible
+tags:
+- easy
+type: dynamic
+value: 100
+version: '0.1'
