@@ -27,15 +27,14 @@
 <h2 id="intro"> Introduction </h2>
 <p>This is the repository for challenges developed by Mohawk student for MohawkCTF or CyberClub. Challenges are distributed as per Category and then the chall name with the pre-defined folder structure for challenge folder as defined below.
 Every Challenge should have an in-detailed step wise writeup which should be password protected with flag as it's password and should also have a give up file with hints or writeup with the password provided in discord server.</p>
-<p><b>Flag Format for every chall is: MohawkCTF{ANY_TEXT}</b></p>
 
 <h2 id="structure"> Repository Structure </h2>
 
-<h4 id ="structure-repository"> Repository Structure</h4>
+<h3 id ="structure-repository"> Repository Structure</h3>
 <p>The structure of repository should be Category > Difficulty Level > Your Challenge folder.
 <p>Kindly check with exec or admins on discord if you are not sure about the category for the chall, difficulty or if you think if a chall could fall in 2 categories.</p>
 
-<h4 id ="structure-folder"> Challenge Folder Structure</h4>
+<h3 id ="structure-folder"> Challenge Folder Structure</h3>
 <p>The Challenge Folder Name should match your CTF challenge name and can represent the challenge hint, associated information, or the library used in the challenge.</p>
 <p>The Challenge folder should have two main folders and one optional folder:</p>
 
