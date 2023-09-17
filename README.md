@@ -25,42 +25,40 @@
 
 
 <h2 id="intro"> Introduction </h2>
-<p>This is the repository for challenges developed by Mohawk student for MohawkCTF or CyberClub. Challenges are distributed as per Category and then the chall name with the pre-defined folder structure for challenge folder as defined below.
-Every Challenge should have an in-detailed step wise writeup which should be password protected with flag as it's password and should also have a give up file with hints or writeup with the password provided in discord server.</p>
+This repository contains challenges developed by a student from Mohawk for use in MohawkCTF or CyberClub. Challenges are categorized by type, further sorted by difficulty level, and finally organized into individual challenge folders, following the predefined folder structure as detailed below.
+
+Each challenge must include a comprehensive step-by-step writeup, which should be password-protected using the flag as the password. Additionally, a README.md file should be present in each challenge folder, providing the challenge's name and essential information."
 
 <h2 id="structure"> Repository Structure </h2>
 
 <h3 id ="structure-repository"> Repository Structure</h3>
 <p>The structure of repository should be Category > Difficulty Level > Your Challenge folder.
-<p>Kindly check with exec or admins on discord if you are not sure about the category for the chall, difficulty or if you think if a chall could fall in 2 categories.</p>
+<p>If you're uncertain about the challenge's category, difficulty level, or if it could belong to multiple categories, please consult with the executives or administrators on Discord for clarification.</p>
 
 <h3 id ="structure-folder"> Challenge Folder Structure</h3>
-<p>The Challenge Folder Name should match your CTF challenge name and can represent the challenge hint, associated information, or the library used in the challenge.</p>
-<p>The Challenge folder should have two main folders and one optional folder:</p>
+<p>The name of the Challenge Folder should correspond to your CTF challenge name. CTF challenge name can be relevant challenge hints, associated information, or the library used in the challenge.</p>
+<p>The Challenge folder structure should consist of two primary directories, with an optional third directory: </p>
 
 <ol>
-  <li><b>Solve Folder:</b> This folder should include a writeup, a 'give up' file, and a solve script if applicable.</li>
+  <li><b>Solve Folder:</b> This directory should house a writeup file, and optionally, a solve script if applicable.</li>
     <ul>
-      <li>Writeup: This file requires a password for access, and the password must match the CTF flag obtained after solving the challenge.</li>
+      <li>Writeup: Access to this file requires a password that matches the CTF flag obtained after successfully solving the challenge.</li>
     </ul>
-  <li><b>Publish Folder:</b> This folder should contain all the files to be published during the CTF.</li>
-  <li><b>Src Folder</b> (optional): You can include source code or any additional information related to the challenge in this folder.</li>
+  <li><b>Publish Folder:</b> This directory should contain all the files intended for publication.</li>
+  <li><b>Src Folder</b> (optional): Inclusion of source code or any supplementary materials relevant to the challenge can be placed within this folder.</li>
 </ol>
 
-<p>The challenge folder should also include a README.md file containing the following information:</p>
-<ol>
-  <li><b>Challenge Name:</b> The name of your CTF challenge.</li>
-  <li><b>Author:</b>  Your name or preferred nickname.</li>
-  <li><b>Category:</b> This can be one of the following: Binary Exploitation, Cryptography, Forensics, General Skills, OSINT, Reverse Engineering, Web Exploitation. If you're uncertain, you can discuss it with admins and execs.</li>
-  <li><b>Challenge Description:</b> A brief description of your CTF challenge.</li>
-  <li><b>Difficulty:</b> Refer to the difficulty levels <a href="#level">here</a>. If you're unsure, don't hesitate to discuss it with admins and execs.</li>
-  <li><b>Flags format:</b> MohawkCTF{ANY_TEXT} </li>
-  <li><b>Hint:</b> Provide a small hint for your challenge if you wish, or simply mark it as 'n/a.'</li>
-  <li><b>Additional Info:</b> Include any extra details or requirements specified by the authors, admins, or execs.</li>
-  <li><b>Attached files:</b> Include the SHA256 value of any files attached to ensure their integrity.</li>
-</ol>
+The challenge folder should also include a README.md file containing the following information:
 
-<p><b>Note:</b> The information.yml file is primarily intended for future reference, in case we decide to create a CTF event on <a href="https://ctfd.io/"></a>. So please fill it out as thoroughly as possible.</p>
+1. **Challenge Name:** The name of your CTF challenge.
+2. **Author:**  Your name or preferred nickname.
+3. **Category:** This can be one of the following: Binary Exploitation, Cryptography, Forensics, General Skills, OSINT, Reverse Engineering, Web Exploitation. If you're uncertain, you can discuss it with admins and execs.
+4. **Challenge Description:** A brief description of your CTF challenge.
+**Difficulty:** Refer to the difficulty levels <a href="#level">here</a>. If you're unsure, don't hesitate to discuss it with admins and execs.
+5. **Flags format:** `MohawkCTF{ANY_TEXT}`
+6. **Hint:** Provide a small hint for your challenge if you wish, or simply mark it as 'n/a.'
+7. **Additional Info:** Include any extra details or requirements specified by the authors, admins, or execs.
+8. **Attached files:** Include the SHA256 value of any files attached to ensure their integrity.
 
 <h2 id ="Start"> Start Contribute </h2>
 
