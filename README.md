@@ -54,11 +54,11 @@ The challenge folder should also include a README.md file containing the followi
 2. **Author:**  Your name or preferred nickname.
 3. **Category:** This can be one of the following: Binary Exploitation, Cryptography, Forensics, General Skills, OSINT, Reverse Engineering, Web Exploitation. If you're uncertain, you can discuss it with admins and execs.
 4. **Challenge Description:** A brief description of your CTF challenge.
-**Difficulty:** Refer to the difficulty levels <a href="#level">here</a>. If you're unsure, don't hesitate to discuss it with admins and execs.
-5. **Flags format:** `MohawkCTF{ANY_TEXT}`
-6. **Hint:** Provide a small hint for your challenge if you wish, or simply mark it as 'n/a.'
-7. **Additional Info:** Include any extra details or requirements specified by the authors, admins, or execs.
-8. **Attached files:** Include the SHA256 value of any files attached to ensure their integrity.
+5. **Difficulty:** Refer to the difficulty levels <a href="#level">here</a>. If you're unsure, don't hesitate to discuss it with admins and execs.
+6. **Flags format:** `MohawkCTF{ANY_TEXT}`
+7. **Hint:** Provide a small hint for your challenge if you wish, or simply mark it as 'n/a.'
+8. **Additional Info:** Include any extra details or requirements specified by the authors, admins, or execs.
+9. **Attached files:** Include the SHA256 value of any files attached to ensure their integrity.
 
 <h2 id ="Start"> Start Contribute </h2>
 
