@@ -29,6 +29,8 @@ This repository contains challenges developed by a student from Mohawk for use i
 
 Each challenge must include a comprehensive step-by-step writeup, which should be password-protected using the flag as the password. Additionally, a README.md file should be present in each challenge folder, providing the challenge's name and essential information."
 
+<li>Flag Format: MohawkCTF{ANY_TEXT}</li>
+
 <h2 id="structure"> Repository Structure </h2>
 
 <h3 id ="structure-repository"> Repository Structure</h3>
